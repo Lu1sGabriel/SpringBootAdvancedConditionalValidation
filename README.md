@@ -43,19 +43,18 @@ Essa estrutura permite que o projeto cresça sem perder a **organização e a cl
 
 ## Como Executar
 
-1. Clonar o repositório:
+1. Clone o repositório:
    ```
-   git clone https://github.com/seuusuario/conditional-validation-example.git
+   https://github.com/Lu1sGabriel/Spring_Boot_Advanced_Conditional_Validation.git
    ```
-2. Acessar a pasta do projeto:
-   ```
-   cd conditional-validation-example
-   ```
-3. Executar o projeto:
+2. Acesse a pasta do projeto:
+3. Execute o projeto:
    ```
    mvn spring-boot:run
    ```
-4. Testar os endpoints via Postman, Insomnia ou `curl`.
+4. Testar os endpoints:
+   * Use o arquivo `HttpRequests.http` que acompanha o projeto:
+   * Abra-o em um editor que suporte arquivos `.http` e execute as requisições diretamente para testar os endpoints.
 
 ---
 
