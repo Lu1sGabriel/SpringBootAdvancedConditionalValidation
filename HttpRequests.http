@@ -1,0 +1,43 @@
+### Valid Imported Product
+POST http://localhost:8080/products
+Content-Type: application/json
+
+{
+  "name": "Imported Cheese",
+  "price": 8.90,
+  "type": "IMPORTED",
+  "importTax": 5.5
+}
+
+### Valid National Product
+POST http://localhost:8080/products
+Content-Type: application/json
+
+{
+  "name": "National Orange",
+  "price": 3.50,
+  "type": "NATIONAL",
+  "importTax": 0
+}
+
+### Invalid Imported Product
+POST http://localhost:8080/products
+Content-Type: application/json
+
+{
+  "name": "Imported Wine",
+  "price": 80.0,
+  "type": "IMPORTED",
+  "importTax": 0
+}
+
+### Invalid National Product
+POST http://localhost:8080/products
+Content-Type: application/json
+
+{
+  "name": "National Coffee",
+  "price": 15.0,
+  "type": "NATIONAL",
+  "importTax": 3.0
+}
