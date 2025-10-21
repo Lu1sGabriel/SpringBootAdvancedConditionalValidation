@@ -1,6 +1,6 @@
 # Conditional Validation Example — Spring Boot
 
-Este é um **mini projeto de estudo** criado para explorar **validações condicionais avançadas** em Spring Boot utilizando o **Jakarta Bean Validation**.
+Este é um **mini projeto de estudos** criado para explorar **validações condicionais avançadas** em Spring Boot utilizando o **Jakarta Bean Validation**.
 
 O foco principal é demonstrar como criar **anotações de validação personalizadas** que dependem de múltiplos campos em um mesmo objeto, aplicando regras de negócio de forma condicional.
 
